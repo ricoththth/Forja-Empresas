@@ -55,12 +55,21 @@ padding:1.8%;
     left: 71.5rem;
     top:12rem;
 }
-@media only screen and (max-width: 1200px) {
-
-}
-@media only screen and (min-width: 768px) {
-
-}
-@media only screen and (max-width: 600px) {
-    
+@media only screen and (max-width: 600px){
+    body{
+        height: 90vh;
+        position:relative;
+        left: 10%;
+    }
+    .login{
+        position: static;
+        text-align: center;
+        width: 65%;}
+    .azul img{
+        width: 110%;}
+    .blanco{margin-bottom: -10px;}
+    .button3{width: 5rem;
+        padding:2px;
+        font-size: 9px;
+        position: static;}
 }
