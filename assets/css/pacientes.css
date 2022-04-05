@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.loguitos{
+    padding:1%;
+    background-color: #1d1b45;
+    display: flex;}
+
+.franja img{
+    width: 100%;
+    border-bottom:10px solid #89d0dd;
+}
+.button1{
+    height: 60px;
+    line-height: 60px;  
+    width: 60px;  
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 100%;
+    border-color: #89d0dd;
+    background-color: #c4c4c4;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    left: 75%;
+  }
+.board{
+    display: flex;
+    justify-content:space-around;
+}
+table {
+    border-collapse: collapse;
+  }
+
+table, td, th{
+    border: 3px solid #89d0dd;
+}
+th{
+    background-color: #1d1b45;
+    color:white;
+}
+td{
+    background-color: #c4c4c4;
+}
+.button4{
+    background-color: #89d0dd;
+    border: 0px;
+    color: #222;
+}
+.button5{
+    background-color: #a40101;
+    border: 0px;
+    color: white;
+}
+.button2{
+    background-color: #c3723e;
+    border: 0px;
+    border-radius: 10%;
+    padding: 0.6rem;
+    text-decoration: none;
+}
+.barsearch{
+    background-color: transparent;
+    border: 2px solid #89d0dd;
+    border-radius: 10%;
+}
+.button3{
+    background-color:#1d1b45;
+    border-color:#89d0dd;
+    color: white;
+}
+.h2{
+    border-bottom: 1px solid #89d0dd;
+    width: 10%;
+    justify-content: center;
+}
+footer{
+    background-color: #222;
+    color: white;
+    padding: 2%;
+}
+p{
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+@media only screen and (max-width: 1200px) {
+
+}
+@media only screen and (min-width: 768px) {
+
+}
+@media only screen and (max-width: 600px) {
+    
+}

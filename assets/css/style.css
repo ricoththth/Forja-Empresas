@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+/*LOGIN*/
+header{
+    display: flex; 
+    padding:0;
+}
+.imagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.logoxd{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.encabezado{
+font: 0.3em sans-serif;
+width: 70%;
+}
+.contactos{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.contactos h2{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.arriba{
+    display: flex;
+    justify-content: space-between;
+}
+.numeroarriba{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:15%;
+}
+.abajo img{
+    width: 98%;
+}
+.direccionarriba{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+}
+.button1
+{	background-color:#195a82;
+	border-radius:20px;
+	border:1px solid #195a82;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Poppins;
+	font-size:12px;
+	padding:8px 20px;
+	text-decoration:none;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;}
+.iniciarsesion{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.imagendoctor{
+        background-image: url(../img/2.\ medico.png); 
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+.imagendoctor h2{
+        font-size: xx-large;
+        color: #c3723e;
+        margin-left: 15%;
+    }
+    
+.button2{
+        background-color:#195a82;
+        border-radius:20px;
+        border:1px solid #195a82;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Poppins;
+        font-size:12px;
+        padding: 6px 14px;
+        margin:2% 22% 
+}
+    
+.franja img{
+        width: 100%;
+}
+
+.imagendoctor h1{
+    font-weight: 400;
+    font-size: xx-large;
+    color: #2b2b2bb7;
+    margin-left: 22%;
+    }
+
+.list{
+    display: flex;
+}
+.lista-signos{
+    width: 50%;
+    display: inline-block;
+margin-left: 3%;
+margin-top: 2%;
+}
+.que-hacer{
+    width: 50%;
+    display: inline-block;
+    margin-top: 2%;
+    margin-right: 3%;
+}
+.list ul{
+    list-style-image:url(../img/check.svg);
+}
+.lista-signos img{
+width: 3.5%;
+}
+.quehacer img{
+    width: 3.5%;
+    }    
+.que-hacer p{
+width: 90%;
+}
+.oms img{
+    width: 20%;
+}
+.lineasnegras{
+    background-color: #474747;
+    color: #ffffff;
+}
+.lineasnegras h5{
+background-color: #151433;
+padding: 8px;
+}
+footer{
+    background-color: #1b1b1b;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+   header{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;}
+    .imagenes{
+        width: 100%;
+        padding: 1em;
+    }
+    .logoxd img{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    .arriba{
+        display: flex;
+    }
+    .arriba h2{
+        font-size: 7px;
+        padding: 0%;
+        text-align: center;
+    }
+    .contactos{
+        display: flex;
+        justify-content: center;
+    }
+    .numeroarriba{
+        width: 40%;
+    }
+    .direccionarriba{
+        width: 40%;
+    }
+    .encabezado{
+        width: 100%;
+    }
+    .button1{font-size: 9px;margin-right: 10px;}
+    .abajo img{ width: 100%;}
+    .imagendoctor h2{font-size: 12px;margin-left:3%;}
+    .imagendoctor h1{margin-left: 2%;font-size: 10px;}
+    .button2{font-size: 8px;padding: 6px 6px;}
+    .list {font-size: 9px;}
+    .list h2{ font-size: 12px;}
+    .list a{font-size: 8px;}
+    .lineasnegras h5{font-size: 10px}
+    footer{font-size: 10px;}
+}
+@media only screen and (min-width: 768px) {
+    .contactos{
+        display: flex;
+        justify-content: center;
+    }
+    .abajo{width: 100%;}
+    .logoxd img{width: 100%;margin-left: 50px;}
+    .button1{margin-right: 20px;}
+    .numeroarriba{width: 40%;}
+    .direccionarriba{width: 40%;}
+}
+@media only screen and (min-width: 992px) {
+}
