@@ -3,7 +3,7 @@ body{
     background-image: url(../img/10.png);
     font-family: 'Poppins', sans-serif;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:auto;
 }
 .login{
     position: absolute;
@@ -55,7 +55,7 @@ padding:1.8%;
     left: 71.5rem;
     top:12rem;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 750px){
     body{
         height: 90vh;
         position:relative;
@@ -72,4 +72,22 @@ padding:1.8%;
         padding:2px;
         font-size: 9px;
         position: static;}
+}
+@media only screen and (min-width: 768px) {
+    body{
+        margin: 20%;
+    }
+    .login{
+        position:relative;
+        left: 15%;
+        text-align: center;
+        width: 70%;}
+    .azul img{
+        width: 100%;}
+    .button3{width: 5rem;
+        padding:2px;
+        font-size: 9px;
+        position:relative;
+        top: 100%;
+        left: 75%;}
 }
