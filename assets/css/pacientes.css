@@ -90,12 +90,17 @@ a{
     text-decoration: none;
     color: #222;
 }
-@media only screen and (max-width: 1200px) {
-
+@media only screen and (max-width: 600px){
+.loguitos{width: 158%;background-color: #1d1b45;}
+.logoheader{width: 70%;}
+.button1{height: 18%;line-height:0px;  width: 8%;  font-size: 1em;position: relative;left: 4%;}
+.franja img{width: 160%;border-bottom:10px solid #89d0dd;}
+.board{width: 156%;display: flex;justify-content:space-around;}
+footer{width: 155%;}
 }
-@media only screen and (min-width: 768px) {
-
+@media only screen and (min-width: 768px){
+    .button1{left: 40%;}
 }
-@media only screen and (max-width: 600px) {
-    
+@media only screen and (min-width: 1440px){
+    .button1{left: 60%;}
 }
