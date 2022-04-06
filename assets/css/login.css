@@ -55,7 +55,7 @@ padding:1.8%;
     left: 71.5rem;
     top:12rem;
 }
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 600px){
     body{
         height: 90vh;
         position:relative;
@@ -86,8 +86,23 @@ padding:1.8%;
         width: 100%;}
     .button3{width: 5rem;
         padding:2px;
-        font-size: 9px;
+        font-size: 12px;
         position:relative;
         top: 100%;
         left: 75%;}
+}
+@media only screen and (min-width: 1780px){
+body{background-size:cover;}
+.button3{width: 10rem;
+    padding: 10px;
+    font-size: 14px;
+    position:absolute;
+    left: 64%;
+    top: 15%;}
+    .login{
+    position:absolute;
+    top: 20%;
+    left: 30%;
+    text-align: center;
+    width: 40%;}
 }

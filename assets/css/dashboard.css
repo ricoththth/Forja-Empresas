@@ -9,32 +9,20 @@ body{
 h1{
     color:#c3723e;
 }
-
-aside{
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
 .cuadro{
     background-color: blue;
 }
-
 .button1{
     border-color: brown;
 }
-
 .user{
     background-color: rgb(182, 178, 173);
     width: 20%;
     border-radius: 0px 0px 15px 15px;
 }
-
 .user img{
     width: 20%;
 }
-
 .btn-left{
     margin-top: 4rem;
     display:block; 
@@ -44,13 +32,11 @@ aside{
     border-radius: 6px; 
     background-color: #c4c4c4;
 }
-
 #logoForja{
     margin-top: 12rem;
     margin-bottom: 4rem;
     margin-left: 2rem;
 }
-
 .carolina img{
     width: 30%;
     background-color: #fefefe;
@@ -160,7 +146,6 @@ a:link, a:visited,  a:hover, a:active
 .circle{
   position: relative;
   top: 20%;
-  left: 80%;
   opacity: 0.2;
 }
 .footer{
@@ -168,12 +153,39 @@ a:link, a:visited,  a:hover, a:active
   top:18%;
   width: 100%;
 }
-@media only screen and (max-width: 1200px) {
-
+@media only screen and (max-width: 600px){
+  .azul{height: 100vh;width: 30%;}
+  .content{height: 100vh;width: 70%;background-color: #c4c4c4;text-align: center;}
+  .carolina{ font-size: 8px;margin-left: 10rem;width: 24%;}
+  h1{font-size: 16px;}
+  .circle{top: 40%;width: 50%;}
+  .footer{top:41.5%;width: 100%;}
+  .btn-left{margin-top: 1rem;width:100%; padding: 4px;font-size: 8px;}
+  #logoForja{margin-top: 6rem;margin-bottom: 1rem;margin-left: 0rem;width: 100%;}
+  .content__filter__input {font-size:8px;position: relative;}
+  .content__filter {position: relative;top: -20%;text-align: center;}
 }
 @media only screen and (min-width: 768px) {
-
+  .azul{height: 100vh;width: 30%;}
+  .content{height: 100vh;width: 70%;background-color: #c4c4c4;text-align: center;}
+  .carolina{ font-size: 10px;margin-left: 24rem;width: 24%;}
+  h1{font-size: 18px;}
+  .circle{top: 40%;width: 50%;}
+  .footer{top:41.5%;width: 100%;}
+  .btn-left{margin-top: 1rem;width:100%; padding: 4px;font-size: 12px;}
+  #logoForja{margin-top: 6rem;margin-bottom: 1rem;margin-left: 0rem;width: 100%;}
+  .content__filter__input {font-size:12px;position: relative;}
+  .content__filter {position: relative;top: -10%;text-align: center;}
 }
-@media only screen and (max-width: 600px) {
-    
+@media only screen and (min-width: 1440px){
+  .azul{height: 100vh;width: 20%;}
+  .content{height: 100vh;width: 80%;background-color: #c4c4c4;text-align: center;}
+  .carolina{ font-size: 10px;margin-left: 64rem;width: 10%;}
+  h1{font-size: 30px;}
+  .circle{ left: 30%; top: 20%;width: 20%;}
+  .footer{top:20%;width: 100%;}
+  .btn-left{margin-top: 1rem;width:100%; padding: 4px;font-size: 14px;}
+  #logoForja{margin-top: 6rem;margin-bottom: 4rem;margin-left: 0rem;width: 100%;}
+  .content__filter__input {font-size:12px;position: relative;}
+  .content__filter {position: relative;top: -10%;text-align: center;}
 }
