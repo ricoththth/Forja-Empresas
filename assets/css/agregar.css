@@ -151,12 +151,21 @@ body{
 .radio-form{
     margin: 15px 0;
 }
-@media only screen and (max-width: 1200px) {
-
-}
-@media only screen and (min-width: 768px) {
-
-}
 @media only screen and (max-width: 600px) {
-    
+    .loguitos{width: 100%;background-color: #1d1b45;}
+    .loguitos img{
+        width: 60%;
+    }
+    .button1{left: 15%;width: 10%;font-size: 20px;}
+    #registro{
+        padding: 30px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tittle h3{
+       font-size: 12px;
+    }
+
 }
