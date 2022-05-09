@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forja Empresas</title>
+    <script src="../js/login.js"></script>
     <link type="image/x-icon" href="../assets/img/logocorto.png" rel="icon">
     <link rel="stylesheet" type="text/css" href="../assets/css/login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,13 +30,13 @@ Volver al inicio
     <form method="post">
         <div class="Usuario">
             <label>Usuario</label><br><br>
-            <input type="text" class="button1">
+            <input type="text" class="button1" required="required">
         </div>
         <br>
         <div class="Contraseña">
             <label>Contraseña</label>
             <br><br>
-            <input type="password" class="button1">
+            <input type="password" class="button1" required="required">
         </div>
         <br>
         <a href="">
@@ -43,15 +44,14 @@ Volver al inicio
             ¿Olvidó su contraseña?
         </div></a>
     <div>
-        <a href="../views/dashboard.html">
-        <button type="button" class="button2">
+        <button type="submit" class="button2">
         Ingresar
-        </button> </a>
+        </button>
     </div>
     </div></center>
     </form>
 
 </div>
-
+<script src="../js/login.js"></script>
 </body>
 </html>
