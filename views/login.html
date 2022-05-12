@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forja Empresas</title>
-    <script src="../js/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link type="image/x-icon" href="../assets/img/logocorto.png" rel="icon">
     <link rel="stylesheet" type="text/css" href="../assets/css/login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,16 +27,16 @@ Volver al inicio
     <br>
     </div>  
     <center><div class="blanco">
-    <form method="post">
-        <div class="Usuario">
+    <form name="form" id="form" action="dashboard.html">
+        <div class="Usuario" id="usuario" >
             <label>Usuario</label><br><br>
-            <input type="text" class="button1" required="required">
+            <input type="text" class="button1" required="required" name="login">
         </div>
         <br>
-        <div class="Contraseña">
+        <div class="Contraseña" id="contraseña" >
             <label>Contraseña</label>
             <br><br>
-            <input type="password" class="button1" required="required">
+            <input type="password" class="button1" required="required" name="password">
         </div>
         <br>
         <a href="">
@@ -44,14 +44,14 @@ Volver al inicio
             ¿Olvidó su contraseña?
         </div></a>
     <div>
-        <button type="submit" class="button2">
-        Ingresar
-        </button>
+        <input id="buttonLogin" class="button2" onclick="load()" value="Ingresar" type="button">
+    </input>
     </div>
     </div></center>
     </form>
 
 </div>
 <script src="../js/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
