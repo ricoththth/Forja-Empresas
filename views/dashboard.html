@@ -43,39 +43,95 @@
             </div>
             <h1 style="text-align:center;">BIENVENIDOS</h1>
 <br><br><br><br><br><br><br><br><br>
-            <div class="content__filter">
+            <div class="content__filter" id="Form">
                 <input class="content__filter__input" type="text" id="userInput"
                     placeholder="Documento del paciente">
-                <button class="content__filter__button" id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button onclick="documento()" class="content__filter__button" id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
                 <button class="content__filter__button" type="reset"><i class="fa-brands fa-firefox-browser"></i></button>
-
-                
-
-                <!-- The Modal -->
-
+                <!--
+                 The Modal 
                 <div id="userNotFoundModal" class="modal">
-
-
-                    <!-- Modal content -->
+                    Modal content 
                     <div class="modal__content">
                         <img class="modal__content__image" src="../assets/img/0. logoforja.png" alt="logo-forja">
-
                         <p class="modal__content__message">Usuario no registrado desea realizar el registro?</p>
                         <button class="menu__content__button menu__content__button--accept"><a href="pacientes.html">Si, Crear</a></button>
                         <button class="menu__content__button menu__content__button--cancel"><a href="../index.html">Cancelar</button></a>
-
-
-
-
-
-
                     </div>
                 </div>
+
+                The modal number one
+                <div id="userPointOne" class="modal">
+                     Modal content 
+                    <div class="modal__content">
+                        <img class="modal__content__image" src="../assets/img/0. logoforja.png" alt="logo-forja">
+
+                        <p class="modal__content__message">
+                            Este paciente cuenta con su primera dosis realizada el dia 22/02/2022
+                        </p>
+                        <div class="modal__content__specific">
+                            <p> Tipo: Pfizer Nombre: Pedro Escamoso</p>
+                        </div>
+                        <button class="menu__content__button menu__content__button--accept"><a href="pacientes.html">Editar</a></button>
+                        <button class="menu__content__button menu__content__button--cancel"><a href="../index.html">Cancelar</button></a>
+                    </div>
+                </div>
+                The modal number two
+                <div id="userPointTwo" class="modal">
+                    Modal content 
+                    <div class="modal__content">
+                        <img class="modal__content__image" src="../assets/img/0. logoforja.png" alt="logo-forja">
+
+                        <p class="modal__content__message">
+                            Este paciente cuenta con las dos primeras dosis
+                        </p>
+                        <div class="modal__content__specific">
+                            <p> Tipo: Pfizer Nombre: Aurelio Cheveroni Dia: 23/03/2022</p>
+                        </div>
+                        <button class="menu__content__button menu__content__button--accept"><a href="pacientes.html">Editar</a></button>
+                        <button class="menu__content__button menu__content__button--cancel"><a href="../index.html">Cancelar</button></a>
+                    </div>
+                </div>
+                The modal number three
+                <div id="userPointThree" class="modal">
+                     Modal content 
+                    <div class="modal__content">
+                        <img class="modal__content__image" src="../assets/img/0. logoforja.png" alt="logo-forja">
+
+                        <p class="modal__content__message">
+                            Este paciente cuenta con el esquema de Vacunacion completo
+                        </p>
+                        <div class="modal__content__specific">
+                            <p> Tipo: j&j Nombre: Jota Mario Dia: 2/02/2022</p>
+                        </div>
+                        <button class="menu__content__button menu__content__button--accept"><a href="pacientes.html">Editar</a></button>
+                        <button class="menu__content__button menu__content__button--cancel"><a href="../index.html">Cancelar</button></a>
+                    </div>
+                </div>
+                The modal number four
+                <div id="userPointFour" class="modal">
+                     Modal content 
+                    <div class="modal__content">
+                        <img class="modal__content__image" src="../assets/img/0. logoforja.png" alt="logo-forja">
+
+                        <p class="modal__content__message">
+                            Este paciente no tiene registro de Vacunacion
+                        </p>
+                        <div class="modal__content__specific">
+                            <p> Tipo: xx  Nombre: xx Dia: xx </p>
+                        </div>
+                        <button class="menu__content__button menu__content__button--accept"><a href="pacientes.html">Editar</a></button>
+                        <button class="menu__content__button menu__content__button--cancel"><a href="../index.html">Cancelar</button></a>
+                    </div>
+                </div>-->
+
             </div>
             <img src="../assets/img/13. guerreros.png" alt="circle" class="circle">
             <img src="../assets/img/12. franja_1.jpg" alt="footer" class="footer">
         </div>
 
     </main>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script  src="../js/logic.js"></script>
 </body>
 </html>

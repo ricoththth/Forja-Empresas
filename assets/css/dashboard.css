@@ -121,7 +121,7 @@ h1{
   }
   
   .modal__content__message {
-    font-size: 3em;
+    font-size: 2.5em;
     letter-spacing: 0.2rem;
   }
   
@@ -137,6 +137,9 @@ h1{
     border: #1D1B45;
     height: 34px;
     text-decoration: none;
+}
+.modal__content__specific {
+  font-size: 1.5em;
 }
 a:link, a:visited,  a:hover, a:active
 {
