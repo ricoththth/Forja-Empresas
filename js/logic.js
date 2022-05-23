@@ -19,7 +19,7 @@ function documento(){
             confirmButtonColor: '#EB984E',
             cancelButtonText: 'Aceptar',
           }).then((value) => {
-            window.location. href='agregar.html'
+            window.location. href='newdosis.html'
             });
     }else if (doc==1001235478){
         Swal.fire({
@@ -40,7 +40,7 @@ function documento(){
             confirmButtonColor: '#EB984E',
             cancelButtonText: 'Cancelar',
           }).then((value) => {
-            window.location. href = 'agregar.html'
+            window.location. href = 'newdosis.html'
           });
     }else if (doc == 25413574){
         Swal.fire({
@@ -63,7 +63,7 @@ function documento(){
             confirmButtonColor: '#EB984E',
             cancelButtonText: 'Cancelar',
           }).then((value) => {
-            window.location. href = 'agregar.html'
+            window.location. href = 'newdosis.html'
           });
     }else if (doc == 1007203506){
         Swal.fire({
