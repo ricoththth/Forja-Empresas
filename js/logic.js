@@ -3,9 +3,16 @@ function documento(){
 
     if (doc == 52368795){
         Swal.fire({
-            icon: 'warning',
-            title: 'El documento ' + doc + ' registra la primera dosis',
-            text: 'Jota Mario recibio AstraZeneca el 12/05/2022 en Bosa',
+          title: 'Esquema de vacunación',
+              icon: 'info',
+              iconColor: "white", 
+              html:
+              '<b>Nombre:</b> Jota Mario <br> ' +
+              '<b>Primera Dosis:</b> Registra <br>' +
+              '<b>Fecha de aplicación:</b> 12/05/2020<br> ' +
+              '<b>Tipo:</b> Pfizer<br>' +
+              '<b>Segunda dosis:</b> No<br> ' +
+              `<h3>El usuario sólo cuenta con una primera dosis ¿Desea agendar la siguiente dosis?</h3> `,
             showDenyButton: false,
             showCancelButton: true,
             confirmButtonText: 'Editar',
@@ -16,9 +23,17 @@ function documento(){
             });
     }else if (doc==1001235478){
         Swal.fire({
-            icon: 'warning',
-            title: 'El documento ' + doc + ' registra dos dosis dosis',
-            text: 'Luz Maria recibio la segunda dosis en el extranjero el dia 23/01/2021',
+            title: 'Esquema de vacunación',
+            icon: 'info',
+              iconColor: "white", 
+              html:
+              '<b>Nombre:</b> Luz Maria<br> ' +
+              '<b>Primera Dosis:</b> Registra<br>' +
+              '<b>Fecha de aplicación:</b> 23/01/2022<br> ' +
+              '<b>Tipo:</b> Pfizer<br>' +
+              '<b>Segunda dosis:</b> Sí<br> ' +
+              '<b>Fecha de aplicación:</b> 03/27/2022<br> ' +
+              `<h3>El usuario sólo cuenta con dos dosis ¿Desea agendar la siguiente dosis?</h3> `,
             showDenyButton: false,
             showCancelButton: true,
             confirmButtonText: 'Revisar',
@@ -29,9 +44,19 @@ function documento(){
           });
     }else if (doc == 25413574){
         Swal.fire({
-            icon: 'warning',
-            title: 'El documento ' + doc + ' registra el esquema completo',
-            text: 'Chayanne se vacuno en el olimpo de dia 07/07/7777',
+          title: 'Esquema de vacunación',
+            icon: 'info',
+              iconColor: "white", 
+              html:
+              '<b>Nombre:</b> Juan Chayanne<br> ' +
+              '<b>Primera Dosis:</b> Registra<br>' +
+              '<b>Fecha de aplicación:</b> 07/07/2021<br> ' +
+              '<b>Tipo:</b> Pfizer<br>' +
+              '<b>Segunda dosis:</b> Registra<br> ' +
+              '<b>Fecha de aplicación:</b> 02/02/2022<br> ' +
+              '<b>Tercera dosis:</b> Registra<br> ' +
+              '<b>Fecha de aplicación:</b> 11/07/2022<br> ' +
+              `<h3>El usuario cuenta con todas las dosis</h3> `,
             showDenyButton: false,
             showCancelButton: true,
             confirmButtonText: 'Revisar',
@@ -42,10 +67,10 @@ function documento(){
           });
     }else if (doc == 1007203506){
         Swal.fire({
-            position: 'center',
-            icon: 'warning',
-            title: 'El documento ' + doc + ' NO registra datos',
-            text: 'No presenta ningun dato en la base',
+            title: 'Sin esquema de vacunación',
+            icon: 'info',
+            iconColor: "white", 
+            text: `El usuario no cuenta con registro de vacunación ¿Desea hacer el registro?`,
             confirmButtonText:
             'Registrar',
             confirmButtonColor: '#EB984E',
